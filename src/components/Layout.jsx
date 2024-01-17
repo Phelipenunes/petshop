@@ -12,7 +12,7 @@ export default function Layout({ children }) {
           <Link href="/contato">contato</Link>
         </nav>
       </header>
-      <main>{children}</main>
+      <main className="limitador">{children}</main>
     </>
   );
 }
